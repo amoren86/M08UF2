@@ -13,7 +13,7 @@ class AudioActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_player)
+        setContentView(R.layout.activity_audio)
 
         tvStatus = findViewById(R.id.tv_status)
         bPlay = findViewById(R.id.b_play)
