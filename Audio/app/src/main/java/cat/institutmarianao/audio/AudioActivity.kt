@@ -7,7 +7,7 @@ import android.media.MediaPlayer
 import android.widget.Button
 import android.widget.TextView
 
-class PlayerActivity : AppCompatActivity() {
+class AudioActivity : AppCompatActivity() {
     private lateinit var tvStatus: TextView
     private lateinit var bPlay: Button
 
